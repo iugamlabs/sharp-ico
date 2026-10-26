@@ -232,7 +232,7 @@ jobs:
           $jsonContent.version = $version
           
           # 更新URL
-          $jsonContent.architecture.'64bit'.url = "https://github.com/star-plan/sharp-ico/releases/download/v$version/SharpIco-windows-$version.zip"
+          $jsonContent.architecture.'64bit'.url = "https://github.com/iugamlabs/sharp-ico/releases/download/v$version/SharpIco-windows-$version.zip"
           
           # 更新Hash
           $jsonContent.architecture.'64bit'.hash = $hash

@@ -1,11 +1,11 @@
 {
   "version": "1.2.0",
   "description": "轻量级ICO图标生成和检查工具",
-  "homepage": "https://github.com/star-plan/sharp-ico",
+  "homepage": "https://github.com/iugamlabs/sharp-ico",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/star-plan/sharp-ico/releases/download/v1.2.0/SharpIco-windows-1.2.0.zip",
+      "url": "https://github.com/iugamlabs/sharp-ico/releases/download/v1.2.0/SharpIco-windows-1.2.0.zip",
       "hash": "994b22f84db02cf485b67bbc122c226015da7383a54ecb14cc485c4180b0cb80"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/star-plan/sharp-ico/releases/download/v$version/SharpIco-windows-$version.zip"
+        "url": "https://github.com/iugamlabs/sharp-ico/releases/download/v$version/SharpIco-windows-$version.zip"
       }
     }
   }
