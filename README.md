@@ -32,7 +32,7 @@ SharpIco是一个纯 C# AOT 实现的轻量级图标生成工具，用于生成�
 
 ```bash
 # 添加自定义 bucket
-scoop bucket add sharp-ico https://github.com/star-plan/sharp-ico
+scoop bucket add sharp-ico https://github.com/iugamlabs/sharp-ico
 
 # 安装 SharpIco
 scoop install sharp-ico
@@ -47,7 +47,7 @@ dotnet tool install --global SharpIco
 ### 从源码构建
 
 ```bash
-git clone https://github.com/star-plan/sharp-ico.git
+git clone https://github.com/iugamlabs/sharp-ico.git
 cd SharpIco
 dotnet build -c Release
 ```
@@ -191,11 +191,11 @@ sharp-ico.json 内容示例
 {
     "version": "1.0.0",
     "description": "轻量级ICO图标生成和检查工具",
-    "homepage": "https://github.com/star-plan/sharp-ico",
+    "homepage": "https://github.com/iugamlabs/sharp-ico",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/star-plan/sharp-ico/releases/download/v1.0.0/sharpico-win-x64.zip",
+            "url": "https://github.com/iugamlabs/sharp-ico/releases/download/v1.0.0/sharpico-win-x64.zip",
             "hash": "SHA256哈希值，发布后填写"
         }
     },
@@ -204,7 +204,7 @@ sharp-ico.json 内容示例
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/star-plan/sharp-ico/releases/download/v$version/sharpico-win-x64.zip"
+                "url": "https://github.com/iugamlabs/sharp-ico/releases/download/v$version/sharpico-win-x64.zip"
             }
         }
     }
@@ -214,7 +214,7 @@ sharp-ico.json 内容示例
 使用此方法，您的用户可以通过以下简单步骤安装您的工具：
 
 ```bash
-scoop bucket add sharp-ico https://github.com/star-plan/sharp-ico
+scoop bucket add sharp-ico https://github.com/iugamlabs/sharp-ico
 scoop install sharp-ico
 ```
 

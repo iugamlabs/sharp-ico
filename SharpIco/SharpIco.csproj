@@ -16,11 +16,11 @@
         <!-- 包信息 -->
         <PackageId>SharpIco</PackageId>
         <Version>1.0.0</Version>
-        <Authors>StarPlan</Authors>
+        <Authors>iugam</Authors>
         <Description>SharpIco是一个纯 C# AOT 实现的轻量级图标生成工具，用于生成和检查ICO图标文件。可将一张高分辨率 PNG 图片一键生成标准的 Windows .ico 图标文件，内含多种尺寸（16x16 到 512x512），还可以自定义尺寸。除了图标生成，SharpIco 还内置图标结构分析功能，助你轻松验证 .ico 文件中包含的图层与尺寸。</Description>
         <PackageTags>icon;ico;png;converter,DealiAxy,cli,tool,dotnet-tool,imagesharp</PackageTags>
-        <PackageProjectUrl>https://github.com/star-plan/sharp-ico</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/star-plan/sharp-ico</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/iugamlabs/sharp-ico</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/iugamlabs/sharp-ico</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <LangVersion>default</LangVersion>

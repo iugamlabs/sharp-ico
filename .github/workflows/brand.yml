@@ -1,0 +1,19 @@
+name: Brand references
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  brand:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # 固定公开策略的提交，不执行可漂移的分支内容，也不向策略仓库传递数据。
+      - uses: actions/checkout@v4
+        with:
+          repository: iugamlabs/.github
+          ref: 454f6d9bfb2678286aada35c5e57f846da77e6b4
+          path: .iugam-brand-policy
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - run: python .iugam-brand-policy/scripts/check-brand.py --root .
